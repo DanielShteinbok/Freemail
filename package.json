@@ -1,0 +1,28 @@
+{
+	"name": "daft_protocol",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"gypfile": "true",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "node-gyp rebuild",
+		"clean": "node-gyp clean"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DanielShteinbok/Freemail.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/DanielShteinbok/Freemail/issues"
+	},
+	"homepage": "https://github.com/DanielShteinbok/Freemail#readme",
+	"devDependencies": {
+		"node-gyp": "^7.0.0"
+	},
+	"dependencies": {
+		"node-addon-api": "^3.0.0"
+	}
+}
