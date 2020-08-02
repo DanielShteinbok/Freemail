@@ -1,6 +1,6 @@
 {
     "targets": [{
-        "target_name": "daft_protocol",
+        "target_name": "crypto_addon",
 	#"conditions": [
 	#	['OS=="linux"', {
 	#		'ldflags': [
@@ -11,7 +11,8 @@
         "cflags!": [ "-fno-exceptions" ],
         "cflags_cc!": [ "-fno-exceptions" ],
         "sources": [
-            "cppsrc/main.cpp",
+		"cppsrc/main.cpp",
+		"cppsrc/crypto.cpp"
         ],
         'include_dirs': [
             "<!@(node -p \"require('node-addon-api').include\")"
